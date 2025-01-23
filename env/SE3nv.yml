@@ -12,7 +12,9 @@ dependencies:
   - torchvision
   - cudatoolkit=11.1
   - dgl-cuda11.1
+  - numpy=1.24.3  
   - pip
   - pip:
     - hydra-core
     - pyrsistent
+    - numpy<2 
